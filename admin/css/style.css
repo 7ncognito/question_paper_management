@@ -1,0 +1,50 @@
+/* Style for the header */
+.header {
+  background-color: #333;
+  color: darkred;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style for the container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Style for the query boxes */
+.query-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the query number */
+.query-box h3 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for the email and query text */
+.query-box p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.query-box p strong {
+  font-weight: bold;
+}
+
+/* Style for the "no queries found" message */
+.no-queries {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  margin-top: 50px;
+  font-size: 18px;
+}
